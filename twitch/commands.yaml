@@ -1102,3 +1102,12 @@ skopeo: >-
     constantly bringing in external images into their private internal
     registries.
 
+agile: &agile >-
+    📆 An "agile scrum" (named after the huddle from Rugby, not top
+    layer of shit in a septic tank) or "stand up" is when you answer three
+    things every day in a meeting or in a Slack channel: 1) What did you do
+    yesterday? 2) What are you planning to do today, 3) What are your
+    blockers (if any)?
+
+scrum: *agile
+standup: *agile
