@@ -103,21 +103,6 @@ neovim: &neovim >-
 
 nvim: *neovim
 
-primedrama: >-
-  😟 Yes, I've had drama with him when he very publicly attacked me on
-  Twitter (later YouTube) because he thought a zet I wrote was about him
-  (even though there were no names). The zet was about how grateful I am
-  for the quality of my community (compared to others generally).
-  I deleted it after trolling PR attacks from him and his followers on
-  my zet repo. !primeagen
-
-prime: &prime >-
-  I suggest seeking out more experienced mentors (not just me) who are
-  usually a lot harder to find than him. @learnwithleon is a good one.
-  !primedrama
-
-primeagen: *prime
-
 about: &about >-
   🔎 I'm Rob Muhlestein, a 54-year-old !engineer, !coder by !trade and
   !polyglot, !grayhat, !mentor and !FOSS contributor. I live in
