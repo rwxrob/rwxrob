@@ -718,12 +718,11 @@ distro: *os
 driver: *os
 
 learn: >-
-  ⚡ Stuff you should learn: 1) think like a !hacker 2) !Linux terminal
-  3) !Vim editing with !UNIX !filters 4) !bash scripting 5) !Go
-  programming 6) !Markdown and !Pandoc 7) !Git and !GitHub 8) minimal
-  !web publishing (!HTML/!CSS/!JS) 9) !Docker !containers 10) text-based
-  !search with !lynx 11) !C for understanding 12) !python 13) !perl 14)
-  Kubernetes (!k8s)
+  ⚡ Stuff you should learn: 1) think like a !hacker 2) !UNIX terminal
+  3) !Vim editing with !filters 4) !Bash 5) !Python 6) !Go 6) !Markdown
+  7) !Pandoc 8) !Git and !GitHub 9) minimal
+  !web publishing (!HTML/!CSS/!JS) 10) !containers 11) text-based
+  !search with !lynx 12) !C for understanding 13) Kubernetes (!k8s)
 
 learning: >-
     ⚡ I'm learning Kubernetes (!k8s) at modern, cloud native
