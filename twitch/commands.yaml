@@ -625,14 +625,6 @@ zetplan: >-
     📃 Planning to port !zet from !bash to !go this year. It will be one
     of the !bonzai branches being grafted into Mimir (!mim)
 
-mim: >-
-    💡 Mimir is a comprehensive knowledge management suite of
-    applications I'm slowly creating focused specifically on personal
-    learning, mentoring, and live community building. Eventually, mim will
-    contain related !go !bonzai branches: !keg, kn, web, dl, live, twitch,
-    yt, twitter, project, todo, pomo, cv, agent. Mim will leverage CLI and
-    local WebUI. !edtech !iste
-
 edtech: >-
     🏫🧠💻 I love educational technology and Instructional Technology
     Specialists. I believe tech's primary purpose should be reduction of
@@ -1096,3 +1088,10 @@ agile: &agile >-
 
 scrum: *agile
 standup: *agile
+
+qca: &qca >-
+  📞 "Questions, Conversations, and Advice" (QCA) is sort of my version
+  of AMA. These days I take on one or more questions during the breaks
+  between !pomo sessions. QCA is always saved to YouTube as well.
+
+ama: *qca
