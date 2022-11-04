@@ -942,6 +942,8 @@ lab: >-
   there experimenting rather than reading through tons of potentially
   incorrect docs. Have a look at my lab and share yours with others.
 
+homelab: https://github.com/rwxrob/homelab
+
 curl: >-
   🌐 curl is a program for making web requests from the command line
   !cli and is a critical tool when working with web service interfaces
