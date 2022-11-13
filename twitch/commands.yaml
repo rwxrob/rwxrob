@@ -435,7 +435,7 @@ sleep: >-
 theme: &theme >-
   💻 I use a slightly darkened version of GruvBox on a 81x25, Microsoft
   Terminal (1920x1080 screen) from which I ssh into "anton" (my local
-  Ubuntu Server vm in VirtualBox named in honor of Gilfoyle) and run
+  Ubuntu Server vm in VMWare named in honor of Gilfoyle) and run
   nested TMUX. Font is 28p Ubuntu Mono with wrap set to 72 column.
   I used to do transparent background for streaming but it was murder on
   my eyes.
@@ -653,10 +653,6 @@ secondlife: *sl
 
 afk: "/me 🐟 {user.name} is afk ({1:5})"
 
-fluff: >-
-  ⛅ https://github.com/rwxrob/fluff Happy little clouds at home, on
-  your desktop, in VirtualBox or VMware.
-
 pegn: >-
   🔥 https://pegn.dev I created the Parsing Expression Grammar Notation
   (PEGN) (inspired by Brian Ford's PEG) for expressing any grammar in
@@ -706,12 +702,12 @@ guido: >-
     than telling you 'Well you can do whatever you want'" (Guido, Python !BDFL)
 
 os: &os >-
-  💻 I run Ubuntu Server running in VirtualBox on both Windows desktop,
-  and Mac laptop. Personally, after running a Linux desktop for more
-  than a decade I want nothing to do with Linux desktops. Most people
-  cannot run Linux desktops at work, and I want to help *them*. Plus,
-  OBS is better on Windows than Linux, which is essential for the
-  BelaBox IRL streaming I do.
+  💻 I run Ubuntu Server running in VMWare Workstation Pro on both
+  Windows desktop, and Mac laptop. Personally, after running a Linux
+  desktop for more than a decade I want nothing to do with Linux
+  desktops. Most people cannot run Linux desktops at work, and I want to
+  help *them*. Plus, OBS is better on Windows than Linux, which is
+  essential for the BelaBox IRL streaming I do.
 
 distro: *os
 
