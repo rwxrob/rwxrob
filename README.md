@@ -27,5 +27,3 @@ Places Online You Can Find Me
 </tr>
 </tbody>
 </table>
-
-<https://user-images.githubusercontent.com/3749067/118404049-56c6dc00-b63f-11eb-9763-dc4038c08504.mp4>
