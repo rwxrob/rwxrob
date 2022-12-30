@@ -18,7 +18,7 @@ Places Online You Can Find Me
 <tr class="odd">
 <td style="text-align: center;"><a href="https://youtu.be/yuFFY5Zgtj8">Internet Relay Chat</a></td>
 <td style="text-align: center;"><a href="https://discord.com/invite/9wydZXY">Discord Server</a></td>
-<td style="text-align: center;"><a href="https://twitter.com/rwxrob">Twitter</a></td>
+<td style="text-align: center;"><a href="https://twitter.com/rwxrob">Twitter</a> <a href="https://mastodon.world/rwxrob">Mastodon</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><a href="https://github.com/sponsors/rwxrob">GitHub Sponorship</a></td>
