@@ -96,10 +96,7 @@ filter: &filter >-
 filters: *filter
 
 neovim: &neovim >-
-  💩 Neovim is shit. Mostly because it has no fucking clue what the
-  !UNIX philosophy is about or for. Don't ruin yourself by learning it.
-  Learn !vim and how to !filter properly.
-  https://github.com/rwxrob/zet/tree/main/20210502133019
+  👍 Neovim is vim for Lua people. It has better LSP support than Vim and that is worth looking into  for those who use the same computer for everything. It can also be installed as a single executable (as easy to install as your .vimrc). Still, don't burn bad habits into your muscle memory. Learn  ed and !vim properly first and how to create a !UNIX !filter.
 
 nvim: *neovim
 
@@ -1028,29 +1025,18 @@ vm: >-
     (not hardware). VMs and the basis of all modern "elastic" computing.
     You can run 10 VMs on your !desktop for whatever reason (and there are
     many) or you can run 10s of thousands in your !onprem !cloud. There are
-    three main VM providers: !VirtualBox !VMWare !KVM
+    three main VM providers: !VMWare !KVM
 
 kvm: >-
     ⛅ KVM is the primary !vm for !Linux but is mostly used by cloud
-    providers and not so much on the !desktop. For that people use
-    !VirtualBox or !VMWare.
-
-vbox: &vbox >-
-    💻⛅ VirtualBox is the leading !VM !desktop application (mostly
-    because it's 100% free. It also has the sharpest !CLI and integrates
-    well with !dev tools. I use it extensively (!os) and so should you.
-    !boost requires it. You *must* know it to be a tech today. !vmware
-    is a professional, proprietary alternative. WARNING: Does not
-    work on Mac M1 *and never will*.
+    providers and not so much on the !desktop for those with Linux.
 
 vmware: >-
     💻⛅ VMWare is the leading *proprietary* !VM !desktop application.
-    It costs about $300 but runs on Mac M1 (!vbox does not). They also
+    It costs about $300 but runs on Mac M1. They also
     try to sell you their other stuff rather than give you a good !API
     and !CLI. They have a *free* version but it is limited to one VM
     (which is useless).
-
-virtualbox: *vbox
 
 gitbash: &gitbash >-
     💻 https://git-scm.com The best way to get the essential tools (git,
