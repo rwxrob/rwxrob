@@ -370,16 +370,6 @@ rfc: >-
   📗 An IETF RFC is what specifies how the Internet works. Reading them
   can be very illuminating.
 
-go: &go >-
-  💻💨 https://github.com/rwxrob/awesome-go Go is the best general
-  purpose modern language. You can do shit quickly and safely. Docker,
-  Kubernetes, Prometheus, Helm, all written in Go. Designed by tech-gods
-  Thompson/Pike/Griesemer (also UNIX, C, Unicode) it meets the real
-  needs of Google and major enterprises. It was specifically designed to
-  replace Java/Python/C/C++.
-
-golang: *go
-
 coding: &coding >-
   💢 You can find current coding lang in brackets at the bottom of the
   screen. The term "coding" includes things that most people do not
