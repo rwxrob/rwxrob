@@ -41,7 +41,7 @@ coder: *dev
 tek: >-
   🤝 TEKSystems is one of the largest recruiting tech contract work
   companies. You work for TEK, but TEK equally works for you. Unlike
-  other companies, you are their customer and their product. You makes
+  other companies, you are their customer and their product. You'll make
   20-40% less, but they are financially motivated to have your back,
   keep you happy, and find your next gig. The independence is worth it.
 
@@ -151,7 +151,7 @@ faang: >-
 mute: &mute >-
   🙊 Mute just means I'm not using my microphone usually because I'm
   focused (!focused) and working on something and speaking breaks the
-  flow (!flow). Occasionally, I'll beak the silence (when raided to say
+  flow (!flow). Occasionally, I'll break the silence (when raided to say
   hello, for example).
 
 voice: *mute
