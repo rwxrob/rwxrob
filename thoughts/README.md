@@ -1,3 +1,16 @@
+# Focus on in-person meetups
+
+As much I love my livestream community, I really miss the experience of meeting people in person. This little break from streaming over the last few days has really reminded me of that. I'm a little embarrassed to admit how much more productive I have been without performing and getting side-tracked by the chat in my livestream. Those who follow me will say that this is "just a phase" and they are right. But it is an important one.
+
+As I sit here typing this while listening to my wife's yoga music and watching
+her do a downward-dog next to Sam (our dog) in front of the 60-inch
+television with an ASMR cozy fireplace video playing I am reminded just how
+important personal connection is. In fact, one of the reasons I have been so
+wildly productive these last few days is because I have been sitting next to my
+warm, cozy wife for most of it, which her feet snuggled into my thigh.
+
+Even though I wasn't nearly as cozy with those I mentored at SKILSTAK, having them sit next to me and work on their stuff while I was as well, listening to great music and watching an ASMR on the big screen had a similar affect, on me and the person paying me to mentor them. I don't think I just *felt* more productive, I think we actually were. I want that again, for all of us.
+
 # I don't need a blog
 
 Wednesday, November 27, 2024,  1:43:10PM EST
