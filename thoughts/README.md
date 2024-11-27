@@ -1,5 +1,7 @@
 # I don't need a blog
 
+Wednesday, November 27, 2024,  1:43:10PM EST
+
 For a technologist, a blog dilutes my online presence. It is better to focus entirely on keeping a solid presence on GitHub with an actively maintained profile. Here's why:
 
 **Readers already have GitHub**: Everyone I would ever want to interact with already has a GitHub account or should be getting one.
