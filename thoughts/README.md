@@ -1,6 +1,4 @@
-# Random Thoughts
-
-## I never needed a zettelkasten
+# I never needed a zettelkasten
 
 Wednesday, November 27, 2024,  1:09:46PM EST
 
