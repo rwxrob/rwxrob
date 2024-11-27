@@ -24,6 +24,8 @@ For a technologist, a blog dilutes my online presence. It is better to focus ent
 
 **Search engine built in**: That's right. GitHub has its own indexing and search of *any* content I ever write on it. Sure it isn't as pretty or pull up while I'm typing (like with mkdocs) but it also isn't bogged down by the limitations of having too much content.
 
+**Longevity**: Content created on GitHub not only lasts forever after I die, but has a change to be stored in an vault in the Arctic. This is the same reason I'm not keen on domain names beyond `https://rwxrob.github.io` these days. Every other domain name will eventually cease to exist.
+
 # I never needed a zettelkasten
 
 Wednesday, November 27, 2024,  1:09:46PM EST
