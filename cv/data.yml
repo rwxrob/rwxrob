@@ -54,14 +54,14 @@ Education:
   - Elected to Executive Council as Activities Chairman
   - Lead organization of all assemblies and school activities
   - Booked state governor for Homecoming keynote
-  - Tried out and made into Madrigal A Capella Choir 
+  - Tried out and made into Madrigal A Capella Choir
   - Tried out and made into Percussion Ensemble
   - Interested in dancing, skating, cycling, tennis, soccer, running
   - Top five dead lift record for school (per body weight)
 
 - Entity:     Brockbank Junior High School
   Location:   Magna, Utah
-  Started:    1983 
+  Started:    1983
   Stopped:    1986
   Details:
   - Only student allowed before-school access to only computer in school
@@ -80,13 +80,13 @@ Employment:
   Location: Remote (Headquartered in USA)
   Details:
   - Created klogin Kubernetes OIDC login tool in Go
-  - Spearheaded centralized management of k8sapp applications
-  - Performed several upgrades of different cloud native applications
+  - Spearheaded centralized management of K8SAPP applications
   - Developed custom cloud native applications in bash and Go
-  - Deployed and maintained enterprise JupyterHub in Kubernetes
   - Migrated legacy Perl monitoring applications to Python and Go
-  - Automated Kubernetes application version checking and reporting
-  - Championed creation of central management API and microservice
+  - Conceived and created HPC ML model submission API and microservice
+  - Performed several upgrades of different cloud native applications
+  - Installed and maintained Harbor container registry with 35 TB of data
+  - Researched, installed, and maintain MkDocs department documentation
 
 - Role:     Founder / Mentor / Developer / CEO
   Entity:   SKILSTAK (formerly SkilStak, Inc.)
