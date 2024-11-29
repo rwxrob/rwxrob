@@ -1,6 +1,6 @@
 Hello Friend. There's a good chance we've met, probably on my [livestream](https://linktr.ee/rwxrob) or at one of my live presentations or maybe at SKILSTAK, a learning community I founded with my own retirement money to address the critical lack of tech skills education in America. If we haven't met, I look forward to it. You are probably here for one of the following:
 
-- [Perpetually unfinished books](https://rwxrob.github.io/books)
+- [Perpetually unfinished books](https://github.com/rwxrob/books)
 - [Dot files](https://github.com/rwxrob/dot)
 - [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)
 - [Awesome Go](https://github.com/rwxrob/awesome-go) list of resources
