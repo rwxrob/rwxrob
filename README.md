@@ -5,7 +5,6 @@ Hello Friend. There's a good chance we've met, probably on my [livestream](https
 🌳 [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)  
 🏆 [Awesome Go](https://github.com/rwxrob/awesome-go)  
 🌎 [Parsing Expression Grammar Notation (PEGN)](https://github.com/rwxrob/pegn-spec)  
+🔗 [Everything else](https://linktr.ee/rwxrob)
 
-Star and watch [this repo](https://github.com/rwxrob/rwxrob) to be notified of activity. Your [support](https://github.com/sponsors/rwxrob) and [nice comments](https://github.com/rwxrob/rwxrob/discussions/5) are appreciated. Here [you can find me](https://linktr.ee/rwxrob), [read news and annoucements](https://github.com/rwxrob/rwxrob/discussions/categories/announcements) or know my latest [random thoughts](https://github.com/rwxrob/rwxrob/tree/main/thoughts#readme).
-
-We really can save the world, one changed life at a time.
+Your [support](https://github.com/sponsors/rwxrob) and nice comments are appreciated.
