@@ -1,7 +1,7 @@
 Hello Friend. There's a good chance we've met, probably on my [livestream](https://linktr.ee/rwxrob) or at one of my live presentations or maybe at SKILSTAK.
 If we haven't met, I look forward to it. Be sure to star and follow any of the following if you want to be informed of updates, which you can optionally have emailed to you.
 
-## Writing
+## Books and other writing
 
 🐹 [Autodidactic](https://github.com/rwxrob/autodidactic) - Keys to success as a modern knowledge warrior  
 💻 [Terminal Velocity](https://github.com/rwxrob/terminal-velocity) - Boost your coding, hacking, and learning with the fastest human-computer interface  
