@@ -1,7 +1,7 @@
 Hello Friend. There's a good chance we've met, probably on my [livestream](https://linktr.ee/rwxrob) or at one of my live presentations or maybe at SKILSTAK.
 If we haven't met, I look forward to it. Be sure to star and follow any of the following if you want to be informed of updates, which you can optionally have emailed to you.
 
-**Writing:**
+## Writing
 
 🐹 [Autodidactic](https://github.com/rwxrob/autodidactic)  
 💻 [Terminal Velocity](https://github.com/rwxrob/terminal-velocity)  
@@ -10,9 +10,9 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 🤷 [Frequently Answered Questions](https://github.com/rwxrob/faq)  
 🏆 [Awesome Go](https://github.com/rwxrob/awesome-go)  
 
-**Code and configuration:**
+## Code and configuration
 
-😎 [Dot files](https://github.com/rwxrob/dot)
+😎 [Dot files](https://github.com/rwxrob/dot)  
 🌳 [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)  
 🌎 [Parsing Expression Grammar Notation (PEGN)](https://github.com/rwxrob/pegn-spec)  
 
