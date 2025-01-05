@@ -6,7 +6,7 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 🤔 [Autodidactic](https://github.com/rwxrob/autodidactic) - Keys to success as a modern knowledge warrior  
 💻 [Terminal Velocity](https://github.com/rwxrob/terminal-velocity) - Boost your coding, hacking, and learning with the fastest human-computer interface  
 🐹 [Coding from the Get Go](https://github.com/rwxrob/coding-from-the-get-go) - Learn practical computer science and programming with Go as a first language  
-📕 [A Knowledge Warrior's Guide to Perpetual Publishing](https://github.com/rwxrob/perpetual-publishing) - Rethinking knowledge management for AI LLMs
+📕 [A Knowledge Warrior's Guide to Perpetual Publishing](https://github.com/rwxrob/perpetual-publishing) - Rethinking knowledge management for AI LLMs  
 🟥 [Bad Strimmer](https://github.com/rwxrob/bad-strimmer) - Lessons learned from livestream fails Twitch Youtube Facebook  
 🤬 [Personal blog](https://github.com/rwxrob/blog) - Everything and nothing that doesn't fit elsewhere  
 🤷 [Frequently Answered Questions](https://github.com/rwxrob/faq)  
