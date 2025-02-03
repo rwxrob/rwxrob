@@ -8,24 +8,24 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 
 ## Personal writing
 
-🤬 [Personal blog](https://rwxrob.blog) - Adventures with RWXROB  
-🗿 [Notes](https://github.com/rwxrob/notes) - Maintained with Obsidian 
-🤷 [Frequently answered questions](https://github.com/rwxrob/faq)
+- [Personal blog](https://rwxrob.blog) - Adventures with RWXROB
+- [Notes](https://github.com/rwxrob/notes) - Maintained with Obsidian
+- [Frequently answered questions](https://github.com/rwxrob/faq)
 
 ## Perpetually unfinished books
 
-🤔 [Autodidactic](https://github.com/rwxrob/autodidactic) - Keys to success as a modern knowledge warrior  
-💻 [Terminal Velocity](https://github.com/rwxrob/terminal-velocity) - Boost your coding, hacking, and learning with the fastest human-computer interface  
-🐹 [Coding from the Get Go](https://github.com/rwxrob/coding-from-the-get-go) - Learn practical computer science and programming with Go as a first language  
-🟥 [Bad Strimmer](https://github.com/rwxrob/bad-strimmer) - Lessons learned from livestream fails Twitch Youtube Facebook  
+- [Autodidactic](https://github.com/rwxrob/autodidactic) - Keys to success as a modern knowledge warrior
+- [Terminal Velocity](https://github.com/rwxrob/terminal-velocity) - Boost your coding, hacking, and learning with the fastest human-computer interface
+- [Coding from the Get Go](https://github.com/rwxrob/coding-from-the-get-go) - Learn practical computer science and programming with Go as a first language
+- [Bad Strimmer](https://github.com/rwxrob/bad-strimmer) - Lessons learned from livestream fails Twitch Youtube Facebook
 
 ## Awesome lists
 
-🏆 [Awesome Go](https://github.com/rwxrob/awesome-go)
+- [Awesome Go](https://github.com/rwxrob/awesome-go)
 
 ## Code and configuration
 
-😎 [Dot files](https://github.com/rwxrob/dot)  
-🥼 [Code lab ](https://github.com/rwxrob/dot)  
-🌳 [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)  
-🌎 [Parsing Expression Grammar Notation (PEGN)](https://github.com/rwxrob/pegn-spec)  
+- [Dot files](https://github.com/rwxrob/dot
+- [Code lab ](https://github.com/rwxrob/lab)
+- [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)
+- [Parsing Expression Grammar Notation (PEGN)](https://github.com/rwxrob/pegn-spec)
