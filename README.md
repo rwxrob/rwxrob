@@ -25,7 +25,7 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 
 ## Code and configuration
 
-- [Dot files](https://github.com/rwxrob/dot
-- [Code lab ](https://github.com/rwxrob/lab)
+- [Dot files](https://github.com/rwxrob/dot)
+- [Experimental code lab ](https://github.com/rwxrob/lab)
 - [Go Bonzai CLI framework and library](https://github.com/rwxrob/bonzai)
 - [Parsing Expression Grammar Notation (PEGN)](https://github.com/rwxrob/pegn-spec)
