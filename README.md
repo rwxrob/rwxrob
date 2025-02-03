@@ -9,7 +9,7 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 ## Personal writing
 
 - [Personal blog](https://rwxrob.blog) - Adventures with RWXROB
-- [Notes](https://github.com/rwxrob/notes) - Maintained with Obsidian
+- [Notes](https://github.com/rwxrob/notes) - Personal knowledge base in GFM with Obsidian
 - [Frequently answered questions](https://github.com/rwxrob/faq)
 
 ## Perpetually unfinished books
