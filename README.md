@@ -4,11 +4,10 @@ If we haven't met, I look forward to it. Be sure to star and follow any of the f
 ## Socials media
 
 * https://linktr.ee/rwxrob - Tech stuff
-* https://linktr.ee/rwxrobfun - Personal stuff, outdoor adventure, cycling, etc.
+* https://linktr.ee/rwxfun - Personal stuff, outdoor adventure, cycling, etc.
 
 ## Personal writing
 
-- [Personal blog](https://rwxrob.blog) - Adventures with RWXROB
 - [Notes](https://github.com/rwxrob/notes/blob/main/README.md) - Personal knowledge base in GFM with Obsidian
 - [Frequently answered questions](https://github.com/rwxrob/faq)
 
