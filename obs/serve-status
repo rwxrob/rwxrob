@@ -106,7 +106,8 @@ serve_once() {
 echo "Serving GitHub status for $LOGIN on http://127.0.0.1:$PORT"
 
 while true; do
-	current=$(serve_once|tail -1)
+	resp=$(serve_once)
+	current=$(echo "$resp" | tail -1)
 	prev=""
 	if [[ -e "$HOME/.title" ]]; then
 		prev=$(<"$HOME/.title")
@@ -115,5 +116,5 @@ while true; do
 		echo "$current" >"$HOME/.title"
 		update_twitch_title "$current"
 	fi
-	echo "$current" | nc -l "$PORT" >/dev/null 2>&1 || true
+	serve_once | nc -l "$PORT" >/dev/null 2>&1 || true
 done
