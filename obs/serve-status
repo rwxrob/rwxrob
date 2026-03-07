@@ -3,6 +3,8 @@
 
 set -euo pipefail
 
+TWITCH_BROADCASTER_ID=${TWITCH_BROADCASTER_ID-447179030} #rwxrob default
+
 PORT="${PORT:-8787}"
 LOGIN="${LOGIN:-rwxrob}"
 EMOJI_CACHE="/tmp/github-emojis.json"
@@ -54,6 +56,37 @@ get_status() {
 	printf '%s %s\n' "$unicode" "$message" | sed 's/^ *//;s/ *$//'
 }
 
+have() {
+	command -v "$1" >/dev/null 2>&1
+}
+
+update_twitch_title() {
+	: "${TWITCH_BROADCASTER_ID:?missing TWITCH_BROADCASTER_ID}"
+
+	local title out rc safe_title
+
+	title="$1"
+	title="${title:0:140}"
+	safe_title="$(printf '%s' "$title" | sed 's/\\/\\\\/g; s/"/\\"/g')"
+
+	set +e
+	out="$(
+		twitch api patch channels \
+			-q "broadcaster_id=$TWITCH_BROADCASTER_ID" \
+			-b "{\"title\":\"$safe_title\"}" \
+			2>&1
+	)"
+	rc=$?
+	set -e
+
+	[[ $rc -ne 204 ]] || die "twitch title update failed: $out"
+}
+
+die() {
+	printf '%s\n' "$*" >&2
+	exit 1
+}
+
 serve_once() {
 
 	body="$(get_status)"
@@ -73,5 +106,14 @@ serve_once() {
 echo "Serving GitHub status for $LOGIN on http://127.0.0.1:$PORT"
 
 while true; do
-	serve_once | nc -l "$PORT" >/dev/null 2>&1 || true
+	current=$(serve_once|tail -1)
+	prev=""
+	if [[ -e "$HOME/.title" ]]; then
+		prev=$(<"$HOME/.title")
+	fi
+	if [[ "$current" != "$prev" ]]; then
+		echo "$current" >"$HOME/.title"
+		update_twitch_title "$current"
+	fi
+	echo "$current" | nc -l "$PORT" >/dev/null 2>&1 || true
 done
