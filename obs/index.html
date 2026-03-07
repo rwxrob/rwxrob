@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RWXRob OBS Overlay</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+    }
+
+    /* top bar */
+    .topbar {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* brand cluster */
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .logo {
+      width: 18px;
+      height: 18px;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    /* shared text style */
+    .bangers {
+      font-family: 'Bangers', cursive;
+      font-size: 16px;       /* HARD CAP */
+      letter-spacing: 0.8px; /* readability at small size */
+      color: white;
+      white-space: nowrap;
+      line-height: 1;
+      text-shadow:
+        1px 1px 0 #000,
+        -1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="topbar">
+
+      <div class="brand">
+        <div class="logo">
+          <img src="gnome.jpg" alt="Gnome logo">
+        </div>
+        <div class="bangers">linktr.ee/rwxrob</div>
+      </div>
+
+      <div class="bangers" id="topic">REPLACEDWITHGITHUBSTATUS</div>
+
+      <div class="bangers" id="datetime"></div>
+
+    </div>
+  </div>
+
+  <script>
+
+async function loadTopic() {
+  try {
+    const response = await fetch('http://127.0.0.1:8787');
+    const text = await response.text();
+    document.getElementById('topic').textContent = text.trim();
+  } catch (err) {
+    console.error('Failed to load topic:', err);
+  }
+}
+
+    function updateDateTime() {
+      const now = new Date();
+      const formatted = now.toLocaleString(undefined, {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit'
+      });
+      document.getElementById('datetime').textContent = formatted;
+    }
+
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+
+    loadTopic();
+    setInterval(loadTopic, 1000); // refresh every 5 seconds
+
+  </script>
+</body>
+</html>

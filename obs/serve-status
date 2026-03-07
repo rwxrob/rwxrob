@@ -1,0 +1,77 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2016
+
+set -euo pipefail
+
+PORT="${PORT:-8787}"
+LOGIN="${LOGIN:-rwxrob}"
+EMOJI_CACHE="/tmp/github-emojis.json"
+
+fetch_emoji_map() {
+	if [[ ! -f "$EMOJI_CACHE" ]]; then
+		curl -s https://api.github.com/emojis >"$EMOJI_CACHE"
+	fi
+}
+
+emoji_to_unicode() {
+
+	local shortcode="${1#:}"
+	shortcode="${shortcode%:}"
+
+	fetch_emoji_map
+
+	url=$(jq -r --arg e "$shortcode" '.[$e] // empty' "$EMOJI_CACHE")
+
+	if [[ -z "$url" ]]; then
+		printf '%s' "$1"
+		return
+	fi
+
+	hex=$(printf '%s\n' "$url" | sed -E 's#.*/unicode/([0-9a-f-]+)\.png.*#\1#')
+
+	printf '%b' "$(printf '\\U%s' "$hex")"
+}
+
+get_status() {
+
+	# shellcheck disable=SC2016
+	raw=$(gh api graphql -f query='
+    query($login: String!) {
+      user(login: $login) {
+        status {
+          emoji
+          message
+        }
+      }
+    }
+  ' -F login="$LOGIN" --jq '.data.user.status | "\(.emoji) \(.message)"' 2>/dev/null || true)
+
+	emoji="${raw%% *}"
+	message="${raw#* }"
+
+	unicode=$(emoji_to_unicode "$emoji")
+
+	printf '%s %s\n' "$unicode" "$message" | sed 's/^ *//;s/ *$//'
+}
+
+serve_once() {
+
+	body="$(get_status)"
+
+	len=$(printf '%s' "$body" | wc -c | tr -d ' ')
+
+	{
+		printf 'HTTP/1.1 200 OK\r\n'
+		printf 'Content-Type: text/plain; charset=utf-8\r\n'
+		printf 'Access-Control-Allow-Origin: *\r\n'
+		printf 'Content-Length: %s\r\n' "$len"
+		printf '\r\n'
+		printf '%s' "$body"
+	}
+}
+
+echo "Serving GitHub status for $LOGIN on http://127.0.0.1:$PORT"
+
+while true; do
+	serve_once | nc -l "$PORT" >/dev/null 2>&1 || true
+done
