@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-TWITCH_BROADCASTER_ID=${TWITCH_BROADCASTER_ID-447179030} #rwxrob default
-
 usage() {
 	cat <<'EOF'
 usage:
